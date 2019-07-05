@@ -934,7 +934,7 @@ mientras que la funcionalidad se modela a taves de funciones a las que se les co
 
 ###### clases una clase no es mas que una plantilla general de la cual instancia los objetos es la plantilla que define que atributos y metodos tendran los objetos de esa funcion.
 
-##Sentencia def
+## Sentencia def
 
 ###### La sentencia def es una definición de función usada para crear objetos funciones definidas por el usuario. Una definición de función es una sentencia ejecutable. Su ejecución enlaza el nombre de la función en el namespace local actual a un objecto función (un envoltorio alrededor del código ejecutable para la función). Este objeto función contiene una referencia al namespace local global como el namespace global para ser usado cuando la función es llamada. La definición de función no ejecuta el cuerpo de la función; esto es ejecutado solamente cuando la función es llamada.
 
