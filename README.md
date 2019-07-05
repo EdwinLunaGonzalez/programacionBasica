@@ -70,66 +70,65 @@ Ejercicios curso de programación básica TESH
 
 ###### Ejemplo: La eficiencia de la gasolina en los vehículos esta expresada en millas por galón,En mexico esta expresada en litros por cada 100km/L, determinar como convertir de MPG A L/100KM,escriba un programa que lea un valor en unidades americanas y las convierta a unidades mexicanas.
 
+![image](https://user-images.githubusercontent.com/52517310/60693693-e6769d80-9ea0-11e9-8617-76bea10c99bd.png)
+
+
     milla=float(input('ingresa el numero de MPG:'))
     conversion=235.215/milla 
-    print('la conversion a unidades mexicanas 
-    es:',conversion,'L/100km')
+    print('la conversion a unidades mexicanas es:',conversion,'L/100km')
 
 ###### Realiza un programa que calcule el area de un campo de futbol y que muestre el resultado en metros,pies y acres.
 
-    largo=float(input('cuanto mide el largo del campo 
-    de futbol: '))
-    ancho=float(input('cuanto mide el ancho del campo 
-    de futbol: '))
+![image](https://user-images.githubusercontent.com/52517310/60693701-ebd3e800-9ea0-11e9-9b79-a558c9305da1.png)
+
+
+    largo=float(input('cuanto mide el largo del campo de futbol: '))
+    ancho=float(input('cuanto mide el ancho del campo de futbol: '))
     area=largo * ancho
     area2=area * 90.70
     area3=area2 / 43560
-    print('el area del campo de futbol es' ,area, 
-    'metros cuadrados')
-    print('el area del campo de futbol es' ,area2, 
-    'en pies cuadrados')
-    print('el area del campo de futbol es' , area3, 
-    'en acres')
+    print('el area del campo de futbol es' ,area, 'metros cuadrados')
+    print('el area del campo de futbol es' ,area2, 'en pies cuadrados')
+    print('el area del campo de futbol es' , area3, 'en acres')
 
 
 
 
 ###### Ejemplo:Escriba un programa que calcule el area y volumen del circulo.
+
+![image](https://user-images.githubusercontent.com/52517310/60693710-f2625f80-9ea0-11e9-9b2b-cb8788736e9a.png)
+
     import math
     radio=float(input('ingresa el radio;'))
     area= math.pi*(radio**2)
     volumen= 4/3*3.1416*(radio**3)
 
-    print('el area del circulo es:',area,'cm 
-    cuadrados')
-    print('el volumen del circulo es:' ,volumen,'cm 
-    cubicos')
+    print('el area del circulo es:',area,'cm cuadrados')
+    print('el volumen del circulo es:' ,volumen,'cm cubicos')
 ###### Ejemplo:Escriba un programa que calcule los intereses generados a un plazo de 1 ,2 y 3 años. 
 
-    inversion= float(input('Ingrese el monto que 
-    desea invertir, Enter the amount:'))
+![image](https://user-images.githubusercontent.com/52517310/60693719-f8584080-9ea0-11e9-9ebd-d1a8b6345e8f.png)
+
+    inversion= float(input('Ingrese el monto que desea invertir, Enter the amount:'))
     interes= inversion * 4 / 100
     a2= inversion * 2
     a3= inversion * 3
-    print('El interes generado en su cuenta de ahorro 
-    al cabo de 1 anio  es:',interes,'pesos')
-    print('El interes generado en su cuenta de ahorro 
-    al cabo de 2 anios es:',a2,'pesos') 
-    print('El interes generado en su cuenta de ahorro 
-    al cabo de 3 anios es:',a3,'pesos')
+    print('El interes generado en su cuenta de ahorro al cabo de 1 anio  es:',interes,'pesos')
+    print('El interes generado en su cuenta de ahorro al cabo de 2 anios es:',a2,'pesos') 
+    print('El interes generado en su cuenta de ahorro al cabo de 3 anios es:',a3,'pesos')
 
 ###### Escriba un programa que calcule los dias, minutos,segundos.
 
+![image](https://user-images.githubusercontent.com/52517310/60693729-fee6b800-9ea0-11e9-935a-75417f4b8fb9.png)
+
+
     dias=float(input('inserta el numero de dias: '))
     d=dias
-    horas=float(input('inserta el numero de horas: 
-    '))
+    horas=float(input('inserta el numero de horas:'))
     h=horas
-    minutos=float(input('inserta el numero de 
-    minutos: '))
+    minutos=float(input('inserta el numero de minutos: '))
     m=minutos
-    segundos=float(input('inserta el numero de 
-    segundos: '))
+    segundos=float(input('inserta el numero de segundos: '))
     s=segundos
     resultado=d * 86400
     resultado2= h * 3600
@@ -140,10 +139,8 @@ Ejercicios curso de programación básica TESH
     print('en dias tienes' ,resultado,'segundos')
     print('en horas tienes' ,resultado2, 'segundos')
     print('en minutos tienes' ,resultado3,'segundos')
-    print('en segundos tienes' 
-    ,resultado4,'segundos')
-    print('tienes un total de' 
-    ,resultado5,'segundos')
+    print('en segundos tienes',resultado4,'segundos')
+    print('tienes un total de',resultado5,'segundos')
 
 ###### Escriba un programa que mueste la hora actual.
 
