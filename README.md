@@ -520,9 +520,7 @@ condigo a ejecutar en caso que se cumpla dicha condición.
      jessie.circle(10*i)
      ventana.mainloop()
 
-###### Ejemplo este programa nos muestra que para avanzar utilizaremos forward(50) que avanzara 50 unidades y left(120 que girara a la izquierda 120 unidades para 
-
-finalmente avanzar 50 unidades mas.
+###### Ejemplo este programa nos muestra que para avanzar utilizaremos forward(50) que avanzara 50 unidades y left(120 que girara a la izquierda 120 unidades para finalmente avanzar 50 unidades mas.
 
     import turtle
     wn = turtle.Screen()
@@ -630,6 +628,7 @@ finalmente avanzar 50 unidades mas.
 
 ###### Dibuja un poligono utilizando el modulo turtle.
 
+![image](https://user-images.githubusercontent.com/52517310/60692687-deb4fa00-9e9c-11e9-8e1d-991c7d2a4e1d.png)
 
     import turtle
 
@@ -663,6 +662,9 @@ finalmente avanzar 50 unidades mas.
 
 
 ###### Este programa dibuja un remolino utilizando cuadrados , modulo turtle.
+
+![image](https://user-images.githubusercontent.com/52517310/60692715-073cf400-9e9d-11e9-96ac-41a7122b21fd.png)
+
 
     import turtle
 
@@ -813,6 +815,8 @@ finalmente avanzar 50 unidades mas.
 
 ###### En este ejemplo dibujamos pequeños cuadros seguidos de un espacio.
 
+![image](https://user-images.githubusercontent.com/52517310/60692670-d0ff7480-9e9c-11e9-8208-fe92c27093d1.png)
+
 
     import turtle
 
@@ -894,6 +898,8 @@ finalmente avanzar 50 unidades mas.
 
 
 ###### El siguiente ejemplo realiza una figura en forma de espiral utilizando cuadros.
+
+![image](https://user-images.githubusercontent.com/52517310/60692698-ed031600-9e9c-11e9-89ae-2bfc0e3dfb3b.png)
 
     import turtle
     wn = turtle.Screen()
