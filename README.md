@@ -522,6 +522,8 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 ###### Ejemplo este programa nos muestra que para avanzar utilizaremos forward(50) que avanzara 50 unidades y left(120 que girara a la izquierda 120 unidades para finalmente avanzar 50 unidades mas.
 
+![image](https://user-images.githubusercontent.com/52517310/60692989-17090800-9e9e-11e9-943d-ddbf56c2bd52.png)
+
     import turtle
     wn = turtle.Screen()
     wn.bgcolor("lightgreen")      
@@ -776,7 +778,7 @@ condigo a ejecutar en caso que se cumpla dicha condición.
     ventana.mainloop()
 
 
-###### El siguiente ejemplo realiza un tiangulo equilatero utilizando turtle.
+###### El siguiente ejemplo realiza un triangulo equilatero utilizando turtle.
 
     import turtle
  
