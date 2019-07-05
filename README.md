@@ -66,9 +66,7 @@ compilar el codigo al lenguaje maquina.
     b:',exponente,)
     print('el logaritmo de 10 de a es:',math.log(a))
 
-###### Ejemplo: La eficiencia de la gasolina en los vehículos esta expresada en millas por galón,En mexico esta expresada en litros por cada 100km/L, determinar como 
-
-convertir de MPG A L/100KM,escriba un programa que lea un valor en unidades americanas y las convierta a unidades mexicanas.
+###### Ejemplo: La eficiencia de la gasolina en los vehículos esta expresada en millas por galón,En mexico esta expresada en litros por cada 100km/L, determinar como convertir de MPG A L/100KM,escriba un programa que lea un valor en unidades americanas y las convierta a unidades mexicanas.
 
     milla=float(input('ingresa el numero de MPG:'))
     conversion=235.215/milla 
@@ -166,17 +164,13 @@ convertir de MPG A L/100KM,escriba un programa que lea un valor en unidades amer
     'centimetros cuadrados')
 
 
-###### Ejemplo: Escriba un programa que lea un número entero positivo, n, del usuario y luego muestre el suma de todos los enteros de 1 a n. La suma de los primeros n 
-
-enteros positivos puede ser calculado utilizando la fórmula:
+###### Ejemplo: Escriba un programa que lea un número entero positivo, n, del usuario y luego muestre el suma de todos los enteros de 1 a n. La suma de los primeros n enteros positivos puede ser calculado utilizando la fórmula:
 
     numero = int(input('ingresa un numero:'))
     suma= (numero * (numero+1))/2
     print(suma) 
 
-###### Un minorista en línea vende dos productos: widgets y artilugios. Cada widget pesa 75 gramos Cada gizmo pesa 112 gramos. Escribe un programa que lea el número de 
-
-widgets y el número de artilugios en un pedido del usuario. Entonces tu programa Debe calcular y mostrar el peso total del pedido.
+###### Un minorista en línea vende dos productos: widgets y artilugios. Cada widget pesa 75 gramos Cada gizmo pesa 112 gramos. Escribe un programa que lea el número de widgets y el número de artilugios en un pedido del usuario. Entonces tu programa Debe calcular y mostrar el peso total del pedido.
 
     widgets=int(input('Ingresa el numero de widgets, 
     Enter your number of widgets:'))
@@ -220,17 +214,7 @@ widgets y el número de artilugios en un pedido del usuario. Entonces tu program
     print('tienes un equivalente de' ,metros, 
     'metros')
 
-###### Ejemplo:La superficie de la Tierra es curva, y la distancia entre grados de longitud Varía con la latitud. Como resultado, encontrando la distancia entre dos 
-
-puntos en la superficie La Tierra es más complicada que simplemente usar el teorema de Pitágoras. Sean (t1, g1) y (t2, g2) la latitud y longitud de dos puntos en la 
-
-Tierra superficie. La distancia entre estos puntos, siguiendo la superficie de la Tierra, en kilómetros es: distancia = 6371.01 × arccos (sin (t1) × sin (t2) + cos 
-
-(t1) × cos (t2) × cos (g1 - g2)) El valor 6371.01 en la ecuación anterior no se seleccionó al azar. Es El radio medio de la tierra en kilómetros. Cree un programa que 
-
-permita al usuario ingresar la latitud y longitud de dos Puntos en la tierra en grados. Su programa debe mostrar la distancia entre Los puntos, siguiendo la superficie 
-
-de la tierra, en kilómetros.
+###### Ejemplo:La superficie de la Tierra es curva, y la distancia entre grados de longitud Varía con la latitud. Como resultado, encontrando la distancia entre dos puntos en la superficie La Tierra es más complicada que simplemente usar el teorema de Pitágoras. Sean (t1, g1) y (t2, g2) la latitud y longitud de dos puntos en la Tierra superficie. La distancia entre estos puntos, siguiendo la superficie de la Tierra, en kilómetros es: distancia = 6371.01 × arccos (sin (t1) × sin (t2) + cos (t1) × cos (t2) × cos (g1 - g2)) El valor 6371.01 en la ecuación anterior no se seleccionó al azar. Es El radio medio de la tierra en kilómetros. Cree un programa que permita al usuario ingresar la latitud y longitud de dos Puntos en la tierra en grados. Su programa debe mostrar la distancia entre Los puntos, siguiendo la superficie de la tierra, en kilómetros.
 
     from math import degrees,sin,cos,acos
     latitud=(float(input('ingresa latitud:')))
@@ -244,9 +228,8 @@ de la tierra, en kilómetros.
     distancia2=degrees(distancia)
     print('la distancia es',distancia2,'km')
 
-###### Escriba un programa que comienza leyendo la temperatura del usuario en grados Celsius. Entonces su programa debería mostrar la temperatura equivalente en grados 
-
-Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes Las unidades de temperatura se pueden encontrar en internet.
+###### Escriba un programa que comienza leyendo la temperatura del usuario en grados Celsius. Entonces su programa debería mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes Las unidades de temperatura se pueden encontrar en internet.
+    
     celsius=input('ingrese la temperatura en grados 
     Celsius')
     kelvin= (celsius × 9/5)+32
