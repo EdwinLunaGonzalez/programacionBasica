@@ -5,12 +5,8 @@ Ejercicios curso de programación básica TESH
 ## 1.-Conceptos basicos y algoritmos
 #### ¿Qué es python?
 
-###### Es un lenguaje de programacion creado por Guido van Rossum a principio de los años 90´s,cuyo nombre esta inspirado en el grupo de comicos ingleses''monty 
-
-python'',es un lenguaje similar a ''C'' ,pero con una sintaxis muy limpia y que favorece un codigo legible.
-###### Lenguaje interpretado o escrito:Interpretado o de script es aquel que se ejecuta utilizando un programa intermediario que se llama *interprete*  en lugar de 
-
-compilar el codigo al lenguaje maquina.
+###### Es un lenguaje de programacion creado por Guido van Rossum a principio de los años 90´s,cuyo nombre esta inspirado en el grupo de comicos ingleses''monty python'',es un lenguaje similar a ''C'' ,pero con una sintaxis muy limpia y que favorece un codigo legible.
+###### Lenguaje interpretado o escrito:Interpretado o de script es aquel que se ejecuta utilizando un programa intermediario que se llama *interprete*  en lugar de compilar el codigo al lenguaje maquina.
 ###### Todos nuestro programas deben guardarse con la extension.py, para Correrlos utilizaremos Anaconda Prompt/spyder.
 
 
@@ -304,15 +300,7 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 
 ----
-###### Ejemplo:Se dice comúnmente que un año humano es equivalente a 7 años caninos. Sin embargo esto la simple conversión no reconoce que los perros alcanzan la edad 
-
-adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los dos primeros los años humanos como 10.5 años del perro, 
-
-y luego cuentan cada año humano adicional como 4 perros años. Escribe un programa que implemente la conversión de años humanos a años de perros.descrito en el párrafo 
-
-anterior. Asegúrese de que su programa funciona correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más humanos años. Su programa 
-
-debería mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
+###### Ejemplo:Se dice comúnmente que un año humano es equivalente a 7 años caninos. Sin embargo esto la simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los dos primeros los años humanos como 10.5 años del perro, y luego cuentan cada año humano adicional como 4 perros años. Escribe un programa que implemente la conversión de años humanos a años de perros.descrito en el párrafo anterior. Asegúrese de que su programa funciona correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más humanos años. Su programa debería mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
 
     humano = int(input("Ingresa la edad del perro en 
     anios humanos: "))
@@ -327,53 +315,45 @@ debería mostrar un mensaje de error apropiado si el usuario ingresa un número 
 
     print("la edad en años perros es:", perro)
 
-###### El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años es Se muestra en la tabla de abajo. El patrón se repite desde allí, siendo 
-
-2012 otro. año del dragón, y 1999 siendo otro año de la liebre. Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa 
-
-debería funcionar correctamente para cualquier año mayor o igual a cero, no solo a los que figuran en la tabla.
+###### El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años es Se muestra en la tabla de abajo. El patrón se repite desde allí, siendo 2012 otro. año del dragón, y 1999 siendo otro año de la liebre. Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa debería funcionar correctamente para cualquier año mayor o igual a cero, no solo a los que figuran en la tabla.
 
     year = int(input ("Ingrese su año de 
     nacimiento:"))
     if (año - 2000)% 12 == 0:
-    signo = 'Dragón'
+        signo = 'Dragón'
     elif (año - 2000)% 12 == 1:
-    signo = 'Serpiente'
+        signo = 'Serpiente'
     elif (año - 2000)% 12 == 2:
-    signo = 'Caballo'
+         signo = 'Caballo'
     elif (año - 2000)% 12 == 3:
-    signo = 'oveja'
+         signo = 'oveja'
     elif (año - 2000)% 12 == 4:
-    signo = 'Mono'
+        signo = 'Mono'
     elif (año - 2000)% 12 == 5:
-    signo = 'gallo'
+        signo = 'gallo'
     elif (año - 2000)% 12 == 6:
-    signo = 'Perro'
+        signo = 'Perro'
     elif (año - 2000)% 12 == 7:
-    signo = 'cerdo'
+        signo = 'cerdo'
     elif (año - 2000)% 12 == 8:
-    signo = 'Rata'
+        signo = 'Rata'
     elif (año - 2000)% 12 == 9:
-    signo = 'buey'
+         signo = 'buey'
     elif (año - 2000)% 12 == 10:
-    signo = 'tigre'
-    más:
+        signo = 'tigre'
+         más:
     signo = 'liebre'
 
     print("Su signo del zodiaco:", signo)
 
 
-###### Los horóscopos reportados comúnmente en los periódicos utilizan la posición del sol en el tiempo de nacimiento para tratar de predecir el futuro. Este sistema 
+###### Los horóscopos reportados comúnmente en los periódicos utilizan la posición del sol en el tiempo de nacimiento para tratar de predecir el futuro. Este sistema de astrología divide el año en doce signos del zodiaco.Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Entonces su programa debe informar el signo zodiacal del usuario como parte de una salida apropiada mensaje.
 
-de astrología divide el año en doce signos del zodiaco.Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Entonces su programa debe 
-
-informar el signo zodiacal del usuario como parte de una salida apropiada mensaje.
-
-    day = int(input("ingresa el dia en que naciste 
-    "))
+    day = int(input("ingresa el dia en que naciste "))
+    
     month = input("ingresa el mes en que naciste ")
-    if mes == 'diciembre':astro_sign = 'Sagitario' if 
-    (day < 22) else 'capricorn'
+    if mes == 'diciembre':astro_sign = 'Sagitario' 
+    if (day < 22) else 'capricorn'
     elif mes == 'enero': astro_sign = 'Capricornio' 
     if (day < 20) else 'aquarius'
     elif mes == 'febrero':astro_sign = 'Acuario' if 
@@ -427,16 +407,14 @@ informar el signo zodiacal del usuario como parte de una salida apropiada mensaj
 
 ## 3.Bucle while 
 
-###### permite repetir la ejecución de un grupo de instrucciones mientras se cumpla una condición (es decir, mientras la condición tenga el valor True). La ejecución 
-
-de esta estructura de control while es la siguiente: Python evalúa la condición: si el resultado es True se ejecuta el cuerpo del bucle.
+###### permite repetir la ejecución de un grupo de instrucciones mientras se cumpla una condición (es decir, mientras la condición tenga el valor True). La ejecución de esta estructura de control while es la siguiente: Python evalúa la condición: si el resultado es True se ejecuta el cuerpo del bucle.
 
 ###### Crear un programa que comience en 0 y termine en tu edad.
  
     edad=0
     while edad<19:
-    print('tienes',edad)
-    edad=edad+1
+        print('tienes',edad)
+        edad=edad+1
     print('findeprograma')
 
 ###### Crea un programa que te solicite una contraseña para accesar al sistema y en caso de ser incorrecta, te lo notifique y se reinicie utilizando un bucle while.
@@ -468,9 +446,7 @@ de esta estructura de control while es la siguiente: Python evalúa la condició
 
 ----
 ## Bucle for
-###### Un bucle for es un bucle que repite el bloque de instrucciones un número prederminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo 
-
-del bucle y cada repetición se suele llamar iteración.
+###### Un bucle for es un bucle que repite el bloque de instrucciones un número prederminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo  del bucle y cada repetición se suele llamar iteración.
 
 ###### Escriba un programa que escriba uno, dos ,tres de forma secuencial utilizando un for;
 
@@ -512,11 +488,7 @@ del bucle y cada repetición se suele llamar iteración.
 
 ## Graficos
 
-###### hay muchos modulos de python que proveen caracteristicas poderosas, que podemos usar en nuestros programas , algunos de estos pueden enviar correos electronicos 
-
-y tambien pueden extraer informacion de paginas de internet, para el manejo de graficos usaremos un modulo que permite crear figuras y patrones llamado Turtle, permite 
-
-desarrollar nuestro pensamiento computacional.
+###### hay muchos modulos de python que proveen caracteristicas poderosas, que podemos usar en nuestros programas , algunos de estos pueden enviar correos electronicos y tambien pueden extraer informacion de paginas de internet, para el manejo de graficos usaremos un modulo que permite crear figuras y patrones llamado Turtle, permite  desarrollar nuestro pensamiento computacional.
 
 ###### Escribe un programa que te pida el color de la ventana y con el modulo turtle dibuje un circulo y lo vaya incrementando al doble.
 
@@ -960,26 +932,19 @@ mientras que la funcionalidad se modela a taves de funciones a las que se les co
 
 ## clase 
 
-###### clases una clase no es mas que una plantilla general de la cual instancia los objetos es la plantilla que define que atributos y metodos tendran los objetos de 
+###### clases una clase no es mas que una plantilla general de la cual instancia los objetos es la plantilla que define que atributos y metodos tendran los objetos de esa funcion.
 
-esa 
 ##Sentencia def
 
-###### La sentencia def es una definición de función usada para crear objetos funciones definidas por el usuario. Una definición de función es una sentencia 
+###### La sentencia def es una definición de función usada para crear objetos funciones definidas por el usuario. Una definición de función es una sentencia ejecutable. Su ejecución enlaza el nombre de la función en el namespace local actual a un objecto función (un envoltorio alrededor del código ejecutable para la función). Este objeto función contiene una referencia al namespace local global como el namespace global para ser usado cuando la función es llamada. La definición de función no ejecuta el cuerpo de la función; esto es ejecutado solamente cuando la función es llamada.
 
-ejecutable. Su ejecución enlaza el nombre de la función en el namespace local actual a un objecto función (un envoltorio alrededor del código ejecutable para la 
-
-función). Este objeto función contiene una referencia al namespace local global como el namespace global para ser usado cuando la función es llamada. La definición de 
-
-función no ejecuta el cuerpo de la función; esto es ejecutado solamente cuando la función es llamada.
-
-DEFINICION DE UNA FUNCION
+###### DEFINICION DE UNA FUNCION
     def ladra (num_veces):
     i=0
     while i<num?veces;
     print('gua,gua')
     i=i+1
-CUERPO PRINCIPAL DEL PROGRAMA
+###### CUERPO PRINCIPAL DEL PROGRAMA
     ladra(5)
 
 
