@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/52517310/60692597-60585800-9e9c-11e9-9c54-f42ede98dff3.png)
+
+
 # programacionBasica
 Ejercicios curso de programación básica TESH
 #Python Programación basica TESH 
