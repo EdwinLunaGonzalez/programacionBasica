@@ -46,6 +46,9 @@ Ejercicios curso de programación básica TESH
 
 ###### Ejemplo: escriba un programa que lea 2 numeros enteros y los guarde en las variables a y b y efectue las operaciones del apartado *operadores*
 
+
+![image](https://user-images.githubusercontent.com/52517310/60693306-6bf94e00-9e9f-11e9-9eb9-234e038baefb.png)
+
     a=int(input('Ingrese un numero entero'))
     b=int(input('Ingrese un segundo numero entero'))
     import math
