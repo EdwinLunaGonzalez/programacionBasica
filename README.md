@@ -495,6 +495,7 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 ###### Escribe un programa que te pida el color de la ventana y con el modulo turtle dibuje un circulo y lo vaya incrementando al doble.
 
+![image](https://user-images.githubusercontent.com/52517310/60694815-0f009680-9ea5-11e9-80fd-e0a91726b2b0.png)
 
     print('Escribe uno de los siguiente colores:blue,lightgreen,azure1,azure2,bisque3,brown,aquamarine1,aliceblue,white')
 
@@ -579,6 +580,8 @@ condigo a ejecutar en caso que se cumpla dicha condición.
     
 ###### Crear un programa en el que 2 tortugas realicen 2 circulos uno pequeño y uno mas grande.
 
+![image](https://user-images.githubusercontent.com/52517310/60694818-13c54a80-9ea5-11e9-9bbb-4242b85e6b50.png)
+
 
 
     print('Escribe uno de los siguiente colores:blue,lightgreen,azure1,azure2,bisque3,brown,aquamarine1,aliceblue,white')
@@ -651,6 +654,7 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 ###### Dibuja un cuadro que vaya creciendo de forma secuencial
 
+![image](https://user-images.githubusercontent.com/52517310/60694822-19229500-9ea5-11e9-9d36-7746961e9973.png)
 
     import turtle
     ti=turtle.Screen()
@@ -693,6 +697,8 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 
 ###### Dibuja un cuadrado utilizando turtle.
+
+![image](https://user-images.githubusercontent.com/52517310/60694829-1fb10c80-9ea5-11e9-92fd-311972fa573f.png)
 
     import turtle
 
@@ -780,6 +786,10 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 ###### El siguiente ejemplo realiza un triangulo equilatero utilizando turtle.
 
+![image](https://user-images.githubusercontent.com/52517310/60694836-250e5700-9ea5-11e9-95eb-b9266964dd2a.png)
+
+
+
     import turtle
  
     board = turtle.Turtle()
@@ -796,6 +806,8 @@ condigo a ejecutar en caso que se cumpla dicha condición.
 
 ###### El siguiente ejemplo realiza un rombo utilizando 2 triangulos dibujados con turtle.
 
+![image](https://user-images.githubusercontent.com/52517310/60694841-2b9cce80-9ea5-11e9-8434-f3fed172a4f5.png)
+    
     import turtle
  
     board = turtle.Turtle()
